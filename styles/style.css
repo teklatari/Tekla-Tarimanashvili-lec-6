@@ -101,7 +101,64 @@ a {
   color: gray;
 }
 
+/*happening now*/
 }
+.happening-now {
+  padding: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-family: Roboto;
+}
+
+.happening-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.happening-large {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.happening-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+.happening-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: Roboto;
+}
+
+.happening-small-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.happening-small {
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 
 /* Footer styles */
 footer {
