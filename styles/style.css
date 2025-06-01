@@ -13,6 +13,11 @@ a {
 	display: inline-block;
 	vertical-align: middle;
 }
+nav{
+	display: inline-block;
+	vertical-align: middle;
+}
+
 
 .logo {
 	width: 32px;
@@ -26,6 +31,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: inline-block;
 }
 
 /* Remove blue underline & style links */
@@ -47,6 +53,7 @@ a {
   font-size: 24px;
   font-weight: 800;
   margin-bottom: 20px;
+  font-family: Roboto;
 }
 
 .card-container {
