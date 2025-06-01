@@ -61,7 +61,7 @@ a {
   gap: 40px;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-left:40px;
 }
 
 .nav-links li a {
@@ -178,13 +178,14 @@ a {
   border-radius: 10px;
 }
 .happening-lake-img {
-  width: 100%;
-  height: 100%;
+  width: 758px;
+  height: 430px;
   object-fit: cover;
   display: block;
   border-radius: 10px;
   margin-top: 100px;
 }
+
 
 .happening-text {
   position: absolute;
